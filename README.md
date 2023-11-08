@@ -22,9 +22,9 @@ fast track:<br>
     - [x] "Kamu telah menekan tombol Tambah Item" ketika tombol `Tambah Item` ditekan.
     - [x] "Kamu telah menekan tombol Logout" ketika tombol `Logout` ditekan.
 - [x] Menjawab beberapa pertanyaan berikut pada `README.md` pada *root folder*.
-    - [ ] Apa perbedaan utama antara _stateless_ dan _stateful widget_ dalam konteks pengembangan aplikasi Flutter?
-    - [ ] Sebutkan seluruh _widget_ yang kamu gunakan untuk menyelesaikan tugas ini dan jelaskan fungsinya masing-masing.
-    - [ ] Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial)
+    - [x] Apa perbedaan utama antara _stateless_ dan _stateful widget_ dalam konteks pengembangan aplikasi Flutter?
+    - [x] Sebutkan seluruh _widget_ yang kamu gunakan untuk menyelesaikan tugas ini dan jelaskan fungsinya masing-masing.
+    - [x] Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial)
 - [x] Melakukan `add`-`commit`-`push` ke GitHub.
 
 Bonus:
