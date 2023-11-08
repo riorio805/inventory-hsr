@@ -99,4 +99,5 @@ Pada widget `InkWell` tersebut, kita dapat menentukan atribut `onTap` dengan sua
 Pada fungsi tersebut dipanggil fungsi `ScaffoldMessenger.of(context)`, yang akan mengembalikan `State` dari `ScaffoldMessenger` yang digunakan untuk mengelola `SnackBar` yang muncul di bawah layar (seperti sebuah notifikasi). Dari objek `State` tersebut dapat dipanggil `showSnackBar()` yang akan menampilkan sebuah `SnackBar` di bawah layar dengan teks yang diberikan.
 
 > Mengimplementasikan warna-warna yang berbeda untuk setiap tombol (`Lihat Item`, `Tambah Item`, dan `Logout`).
+
 Buat atribut baru pada `ShopItem` bernama `color` (dengan class `Color`), lalu mengakses atribut tersebut untuk menentukan warna background dari widget `Material` (kotak item).
