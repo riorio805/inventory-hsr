@@ -27,6 +27,8 @@ fast track:<br>
     - [ ] Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial)
 - [x] Melakukan `add`-`commit`-`push` ke GitHub.
 
+Bonus:
+- [x] Mengimplementasikan warna-warna yang berbeda untuk setiap tombol (`Lihat Item`, `Tambah Item`, dan `Logout`).
 
 ## statefully
 > (Apa perbedaan utama antara _stateless_ dan _stateful widget_ dalam konteks pengembangan aplikasi Flutter?)
@@ -85,7 +87,7 @@ Command `flutter create <app>` dapat digunakan untuk membuat suatu aplikasi _Flu
 
 Tombol tersebut dapat dibuat menggunakan berbagai macam widget, tetapi dalam aplikasi ini menggunakan widget `InkWell` (agar menampilkan animasi dan responsif terhadap sentuhan). 
 Didalam widget tersebut terdapat widget `Container` -> `Center` -> `Column`, lalu isi dari `Column` tersebut terdapat `Icon` dan `Text`.
-Isi dari Icon dan Text tersebut diambil dari data yang diberikan di objek dengan class `ShopItem`. Objek-objek tersebut telah di-_initialize_ sebelumnya
+Isi dari Icon dan Text tersebut diambil dari data yang diberikan di objek dengan class `ShopItem`. Objek-objek tersebut telah di-_initialize_ sebelumnya (pada array `items`).
 
 
 > Memunculkan `Snackbar` dengan tulisan:<br>
@@ -95,3 +97,6 @@ Isi dari Icon dan Text tersebut diambil dari data yang diberikan di objek dengan
 
 Pada widget `InkWell` tersebut, kita dapat menentukan atribut `onTap` dengan suatu fungsi, yang akan dijalankan setiap kali pengguna menyentuh widget tersebut.
 Pada fungsi tersebut dipanggil fungsi `ScaffoldMessenger.of(context)`, yang akan mengembalikan `State` dari `ScaffoldMessenger` yang digunakan untuk mengelola `SnackBar` yang muncul di bawah layar (seperti sebuah notifikasi). Dari objek `State` tersebut dapat dipanggil `showSnackBar()` yang akan menampilkan sebuah `SnackBar` di bawah layar dengan teks yang diberikan.
+
+> Mengimplementasikan warna-warna yang berbeda untuk setiap tombol (`Lihat Item`, `Tambah Item`, dan `Logout`).
+Buat atribut baru pada `ShopItem` bernama `color` (dengan class `Color`), lalu mengakses atribut tersebut untuk menentukan warna background dari widget `Material` (kotak item).
